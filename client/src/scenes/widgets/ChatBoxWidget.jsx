@@ -21,7 +21,7 @@ const ChatBoxWidget = () => {
     const [arrivalMessages, setArrivalMessages] = useState([]);
     const receiverIdd = conversation.members.find((member) => member !== _id);
     useEffect(() => {
-        socket.current = io("ws://localhost:8900");
+        socket.current = io("ws://mern-snsocket.onrender.com");
 
         socket.current.on("getMessage", (data) => {
             console.log("Received message:", data);
