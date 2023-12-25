@@ -58,7 +58,7 @@ const Navbar = () => {
                         },
                     }}
                 >
-                    НеВконтакте
+                    SomeSocial
                 </Typography>
                 {isNonMobileScreens && (
                     <FlexBetween
