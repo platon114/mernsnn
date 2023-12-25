@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
                 width={size}
                 height={size}
                 alt="user"
-                src={`https://mernserv.onrender.comnder.com/assets/${image}`}
+                src={`https://mernserv.onrender.com/assets/${image}`}
             />
         </Box>
     );
