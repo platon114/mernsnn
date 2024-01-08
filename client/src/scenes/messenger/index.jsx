@@ -19,7 +19,7 @@ const Messenger = () => {
     const socket = useRef();
 
     useEffect(() => {
-        socket.current = io("ws://localhost:8900");
+        socket.current = io("https://659987ff6270e6f1a627559e--sparkly-kitten-40161f.netlify.app");
     }, []);
 
     useEffect(() => {
