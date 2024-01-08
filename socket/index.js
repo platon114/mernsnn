@@ -1,6 +1,6 @@
 const io = require("socket.io")(8900, {
     cors: {
-        origin: "https://6589b9de2ac877bfcbdd9401--hilarious-manatee-d9f69c.netlify.app",
+        origin: "https://659987ff6270e6f1a627559e--sparkly-kitten-40161f.netlify.app",
     },
 });
 
